@@ -127,7 +127,8 @@ header .Header-nav figure img {
     font-size: 2rem;
     border-radius: 50%;
 }
-.Slider-menu li a:hover {
+.Slider-menu li button:hover,
+.Slider-menu li button:focus {
     background-color: var(--dark-woods-green);
     color: var(--white);
 }
