@@ -222,3 +222,22 @@ header .Header-nav figure img {
 .Contact-me form .Contact-me-message input {
     height: 200px;
 }
+
+/* Footer */
+footer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+}
+footer .Social-media {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+footer .Social-media figure img {
+    height: 2rem;
+    cursor: pointer;
+}
