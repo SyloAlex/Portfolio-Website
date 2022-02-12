@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <title>Sylpheon's Portfolio</title>
 </head>
 
@@ -25,6 +28,148 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section id="Work" class="Work">
+            <h2>Experiencia Laboral</h2>
+            <div class="Work-experience-container">
+                <div class="Work-experience-element">
+                    <h3>Psicólogo Escolar</h3>
+                    <p><b>Institución:</b> Colegio Madre del Divino Pastor</p>
+                    <p><b>Descripción:</b> atención a niños de entre 7 y 12 años en casos de bullying
+                        y rendimiento escolar</p>
+                </div>
+                <div class="Work-experience-element">
+                    <h3>Psicólogo Clínico</h3>
+                    <p><b>Institución:</b> Hospital Dr. Jesús Mata de Gregorio</p>
+                    <p><b>Descripción:</b> atención a pacientes en el Servicio Social del hospital</p>
+                </div>
+                <div class="Work-experience-element">
+                    <h3>Consultor en Lenguaje Natural</h3>
+                    <p><b>Empresa:</b> Smartbase Group</p>
+                    <p><b>Descripción:</b> estudios del lenguaje para proyectos de procesamiento de
+                        lenguaje natural, desarrollo e implementación de Asistentes Virtuales
+                        con IBM Watson Assistant</p>
+                </div>
+                <div class="Work-experience-element">
+                    <h3>Desarrollador de Software</h3>
+                    <p><b>Empresa:</b> AgroCognitive</p>
+                    <p><b>Descripción:</b> desarrollo e implementación de Asistente Virtual con IBM Watson
+                        Assistant, diseño e implementación del Moódulo de Descargas Automáticas de
+                        imágenes satelitales en Python e investigación e implementación del procesamiento
+                        de imágenes satelitales</p>
+                </div>
+            </div>
+            <h2>Proyectos</h2>
+            <div class="Personal-proyects-container">
+                <div class="Personal-proyects-element">
+                    <div class="Info-container">
+                        <h3>Módulo de Descargas de Imágenes Satelitales</h3>
+                        <p>Tecnologías usadas: Python y Django</p>
+                        <p>Fecha: Diciembre 2020</p>
+                        <p>Repositorio privado</p>
+                    </div>
+                    <figure>
+                        <img src="../assets/images/agrocognitive-logo.png" alt="AgroCognitive">
+                    </figure>
+                </div>
+                <div class="Personal-proyects-element">
+                    <div class="Info-container">
+                        <h3>To-Do's List</h3>
+                        <p>Tecnologías: React.js, JavaScript, HTML5 y CSS3</p>
+                        <p>Fecha: Enero 2021</p>
+                        <a href="https://syloalex.github.io/To-Do-Project/">To-Do's List</a>
+                    </div>
+                    <figure>
+                        <img src="../assets/images/to-do-list.png" alt="To-Do List">
+                    </figure>
+                </div>
+                <div class="Personal-proyects-element">
+                    <div class="Info-container">
+                        <h3>Platzi Conference Merch</h3>
+                        <p>Tecnologías: React.js, JavaScript, HTML5 y CSS3</p>
+                        <p>Fecha: Enero 2021</p>
+                        <a href="https://github.com/SyloAlex/Platzi-Conf">Platzi Conf. Merch</a>
+                    </div>
+                    <figure>
+                        <img src="../assets/images/platzi-conf-store.png" alt="Platzi Conference Merch">
+                    </figure>
+                </div>
+            </div>
+            <div class="Personal-proyects-container"></div>
+        </section>
+        <section id="About-me" class="About-me">
+            <h2>Un poco sobre mi...</h2>
+            <div class="About-me-container">
+                <div class="Personal-info">
+                    <p>Mi nombre es Alejandro Mena, tengo 29 año y actualmente trabajo como Software Developer
+                        para las empresas Smartbase Group y AgroCognitive en Venezuela!</p>
+                    <p>Estudié Ingeniería Electrónica durante 10 trimestres en la Universidad Simón Bolívar,
+                        me gradué de Licenciado en Psicología en la Universidad Metropolitana y actualmente estoy
+                        cursando el Diplomado de Desarrollo de Software de la UNIMET!</p>
+                    <p>Una de mis más grandes motivaciones es poder tener una vida tranquila y relajada, con un
+                        buen trabajo que permita mi sustento y los viajes/vacaciones a lugares nuevos y paradisíacos.
+                    </p>
+                    <p>Objetivos a Corto Plazo: culminar los estudios del diplomado, profundizar mis conocimientos
+                        en JavaScript y React.js e inicar actividades laborales en el área de Front-end developing</p>
+                    <p>Objetivos a Largo Plazo: obtener experiencia laboral trabajando desde la comodidad de mi casa,
+                        ser nómada digital (viajar por el mundo mientras trabajo de forma remota) y adentrarme en el
+                        mundo de la Web 3.0</p>
+                </div>
+                <figure>
+                    <img src="../assets/images/personal-image.jpeg" alt="Imagen Personal">
+                </figure>
+            </div>
+        </section>
+        <section id="Skills" class="Skills">
+            <h2>Habilidades en Tecnología</h2>
+        </section>
+        <section class="Contact-me">
+            <h2>Información de Contacto</h2>
+            <form>
+                <div class="Contact-me-name">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" placeholder="Escriba su nombre">
+                </div>
+                <div class="Contact-me-email">
+                    <label for="email">Correo electronico</label>
+                    <input type="email" id="email" placeholder="Escriba su correo">
+                </div>
+                <div class="Contact-me-message">
+                    <label for="message">Mensaje</label>
+                    <input type="text" id="message" placeholder="Escriba el mensaje a dejar">
+                </div>
+                <button type="button" onclick="handleSubmit()">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Caracas, Venezuela</p>
+        <div class="Social-media">
+            <figure class="Social-media-twitter">
+                <a href="https://twitter.com/RandomAlexShow" target="_blank">
+                    <img src="../assets/images/twitter.svg" alt="Twitter">
+                </a>
+            </figure>
+            <figure class="Social-media-instagram">
+                <a href="https://www.instagram.com/snowy.therapy/" target="_blank">
+                    <img src="../assets/images/instagram.svg" alt="Instagram">
+                </a>
+            </figure>
+            <figure class="Social-media-linkedin">
+                <a href="https://www.linkedin.com/in/alejandromenadefonseca/" target="_blank">
+                    <img src="../assets/images/linkedin.svg" alt="Linkedin">
+                </a>
+            </figure>
+            <figure class="Social-media-linkedin">
+                <a href="https://wa.me/+584142282734" target="_blank">
+                    <img src="../assets/images/whatsapp.svg" alt="Whatsapp">
+                </a>
+            </figure>
+        </div>
+        <p>Todos los zurdos reservados</p>
+    </footer>
+    <script src="../script//main.js"></script>
 
 </body>
 
