@@ -198,6 +198,7 @@ header .Header-nav figure img {
 }
 .Work .Personal-proyects-container figure img {
     width: 100%;
+    border-radius: 0.5rem;
 }
 /* Skills Section */
 .Skills {
@@ -207,7 +208,6 @@ header .Header-nav figure img {
 }
 .Skills h2 {
     margin-bottom: 3rem;
-    text-align: center;
 }
 .Skills div {
     padding-right: 2rem;
