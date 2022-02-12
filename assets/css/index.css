@@ -65,3 +65,28 @@ header .Header-nav figure img {
     color: var(--white);
     background-color: var(--medium-green);
 }
+
+.About-me {
+    padding: 0 2rem;
+    width: 100%;
+    margin: 1rem 0;
+    background: linear-gradient(0deg, rgba(191,255,191,1) 0%, rgba(255,255,255,1) 100%);
+}
+.About-me h2 {
+    margin-bottom: 1rem;
+}
+.About-me .About-me-container {
+    display: flex;
+    padding-bottom: 1rem;
+}
+.About-me .About-me-container .Personal-info p {
+    margin-top: 2rem;
+}
+.About-me figure {
+    margin-left: 5rem;
+    padding: 3rem;
+}
+.About-me figure img {
+    width: 250px;
+    border-radius: 50%;
+}
