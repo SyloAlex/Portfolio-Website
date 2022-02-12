@@ -70,6 +70,9 @@ header .Header-nav figure img {
     color: var(--white);
     background-color: var(--medium-green);
 }
+.Header-nav-element:active {
+    color: black;
+}
 
 /* Main Content */
 /* Slider */
@@ -178,11 +181,6 @@ header .Header-nav figure img {
     border: 0.1rem solid var(--dark-green);
     border-radius: 0.5rem;
     margin: 1rem;
-}
-.Work .Work-experience-container .Work-experience-element:hover,
-.Work .Personal-proyects-container .Personal-proyects-element:hover {
-    background-color: var(--medium-green);
-    color: var(--white);
 }
 .Work .Work-experience-container .Work-experience-element h3,
 .Work .Personal-proyects-container .Personal-proyects-element h3 {
