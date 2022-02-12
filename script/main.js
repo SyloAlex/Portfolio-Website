@@ -1,3 +1,4 @@
+//Skill Section
 const skills = {
     name: 'Habilidades en tecnología',
     techSkills: [
