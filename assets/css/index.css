@@ -119,11 +119,9 @@ header .Header-nav figure img {
 .Slider-menu li:last-child {
     margin-right: 0;
 }
-.Slider-menu li a {
-    display: inline-block;
+.Slider-menu li button {
     color: black;
     background-color: var(--light-green);
-    padding: 1rem;
     width: 4rem;
     height: 4rem;
     font-size: 2rem;
@@ -233,6 +231,10 @@ header .Header-nav figure img {
     border-radius: 1rem;
     width: 1%;
     background-color: var(--dark-green);
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    transition: width 1s;
 }
 .Skills div button {
     padding: 0 1rem;

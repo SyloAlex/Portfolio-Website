@@ -1,3 +1,27 @@
+//SlideShow
+const handleSlide = (id) => {
+    const slides = document.getElementsByClassName('Slider-list')[0].children;
+    switch (id) {
+        case "Slide-element-1":
+            slides[0].style.opacity = "1";
+            slides[1].style.opacity = "0";
+            slides[2].style.opacity = "0";
+            break;
+        case "Slide-element-2":
+            slides[0].style.opacity = "0";
+            slides[1].style.opacity = "1";
+            slides[2].style.opacity = "0";
+            break;
+        case "Slide-element-3":
+            slides[0].style.opacity = "0";
+            slides[1].style.opacity = "0";
+            slides[2].style.opacity = "1";
+            break;
+        default:
+            break;
+    }
+}
+
 //Skill Section
 const skills = {
     name: 'Habilidades en tecnología',
@@ -35,9 +59,11 @@ const dinamicBar = (node) => {
     const smallBar = document.getElementsByClassName(`${parentClass}-Smallbar`)
     if (smallBar[0].style.width > 2 + "%") {
         smallBar[0].style.width = 1 + "%";
+        smallBar[0].innerText = '';
     } else {
         const progress = skills.techSkills.filter(skill => skill.name === parentClass)[0].progress;
         smallBar[0].style.width = progress + "%";
+        smallBar[0].innerText = `${progress}%`;
     }
 };
 
