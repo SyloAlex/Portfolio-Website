@@ -45,7 +45,7 @@ header .Header-nav {
     height: 80px;
 }
 header .Header-nav figure {
-    width: 80px;
+    width: 150px;
 }
 header .Header-nav figure img {
     width: 100%;
@@ -61,6 +61,7 @@ header .Header-nav figure img {
     width: 25%;
     padding: 1.6rem 0rem;
     cursor: pointer;
+    color: var(--dark-green);
     border-right: 0.1rem solid var(--medium-green);
 }
 .Header-nav-element:last-child {
