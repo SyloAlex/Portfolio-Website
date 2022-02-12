@@ -4,6 +4,7 @@
     --medium-green: #53a753;
     --dark-green: #006600;
     --dark-woods-green: #004700;
+    --gray: #b8b8b8;
 }
 
 /* Basic CSS Template */
@@ -70,10 +71,12 @@ header .Header-nav figure img {
     background-color: var(--medium-green);
 }
 
+/* Main Content */
+/* About Me Section */
 .About-me {
     padding: 0 2rem;
     width: 100%;
-    margin: 1rem 0;
+    margin-top: 1rem;
     background: linear-gradient(0deg, rgba(191,255,191,1) 0%, rgba(255,255,255,1) 100%);
 }
 .About-me h2 {
@@ -94,7 +97,7 @@ header .Header-nav figure img {
     width: 250px;
     border-radius: 50%;
 }
-/* Main Content */
+/* Work Section */
 .Work {
     width: 100%;
     background-color: var(--white);
@@ -140,4 +143,50 @@ header .Header-nav figure img {
 }
 .Work .Personal-proyects-container figure img {
     width: 100%;
+}
+/* Skills Section */
+.Skills {
+    padding: 5rem 2rem;
+    width: 100%;
+    background-color: var(--light-green);
+}
+.Skills h2 {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.Skills div {
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.Skills div p {
+    display: inline-block;
+    width: 100px;
+}
+.Skills div div {
+    margin-bottom: 2rem;
+    height: 3rem;
+    background-color: var(--white);
+    width: 70%;
+    border-radius: 1rem;
+}
+.Skills div div div {
+    height: 3rem;
+    border-radius: 1rem;
+    width: 1%;
+    background-color: var(--dark-green);
+}
+.Skills div button {
+    padding: 0 1rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: var(--white);
+    border: 0.2rem solid var(--dark-green);
+}
+
+.Skills div button:hover {
+    background-color: var(--medium-green);
+    color: var(--white);
+    border: 0.2rem solid var(--white);
 }
