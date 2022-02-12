@@ -14,10 +14,14 @@
 }
 html {
     font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
 }
 body {
     font-size: 1.6rem;
     width: 100%;
+}
+a {
+    text-decoration: none;
 }
 
 /* Header and Navigation bar */
@@ -64,4 +68,52 @@ header .Header-nav figure img {
 .Header-nav-element:hover {
     color: var(--white);
     background-color: var(--medium-green);
+}
+
+/* Main Content */
+.Work {
+    width: 100%;
+    background-color: var(--white);
+    padding: 1rem;
+}
+.Work h2 {
+    text-align: center;
+    color: var(--medium-green);
+}
+.Work .Work-experience-container,
+.Work .Personal-proyects-container {
+    margin: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Work .Work-experience-container .Work-experience-element,
+.Work .Personal-proyects-container .Personal-proyects-element {
+    width: calc(50% - 2rem);
+    padding: 1rem 1.5rem;
+    border: 0.1rem solid var(--dark-green);
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+.Work .Work-experience-container .Work-experience-element:hover,
+.Work .Personal-proyects-container .Personal-proyects-element:hover {
+    background-color: var(--medium-green);
+    color: var(--white);
+}
+.Work .Work-experience-container .Work-experience-element h3,
+.Work .Personal-proyects-container .Personal-proyects-element h3 {
+    margin-bottom: 1rem;
+}
+.Work .Personal-proyects-container .Personal-proyects-element .Info-container p {
+    margin-bottom: 1rem;
+}
+.Work .Personal-proyects-container .Personal-proyects-element {
+    display: flex;
+}
+.Work .Personal-proyects-container figure {
+    width: 40%;
+    margin-left: 1rem;
+    text-align: center;
+}
+.Work .Personal-proyects-container figure img {
+    width: 100%;
 }
