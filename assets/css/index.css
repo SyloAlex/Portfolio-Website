@@ -269,17 +269,35 @@ header .Header-nav figure img {
 }
 .Contact-me form div {
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
 }
 .Contact-me form div label {
     display: inline-block;
     width: 20%;
+    height: 100%;
 }
 .Contact-me form div input {
-    text-align: center;
+    font-size: 1.6rem;
     width: 80%;
 }
-.Contact-me form .Contact-me-message input {
+.Contact-me form .Contact-me-message textarea {
+    font-size: 1.6rem;
+    font-family: 'Ubuntu', sans-serif;
     height: 200px;
+    width: 80%;
+}
+.Contact-me form button {
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--light-green);
+    background-color: var(--medium-green);
+    color: var(--white);
+}
+.Contact-me form button:hover {
+    border: 0.1rem solid var(--medium-green);
+    background-color: var(--white);
+    color: var(--medium-green);
 }
 
 /* Footer */
