@@ -57,3 +57,22 @@ for (skill of skills.techSkills) {
     skillElement.append(title, barContainer, button)
     container.append(skillElement)
 }
+
+//Contact Me Section
+const handleSubmit = () => {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    if ((name === "") || (email === "") || (message === "")) {
+        alert('Debe introducir todos los datos requeridos')
+    }
+    else if (!email.includes('@')) {
+        alert('Debe escribir un correo válido')
+    }
+    else {
+        console.log(`
+Nombre: ${name}
+Correo: ${email}
+Mensaje: ${message}`);
+    }
+}

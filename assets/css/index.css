@@ -190,3 +190,35 @@ header .Header-nav figure img {
     color: var(--white);
     border: 0.2rem solid var(--white);
 }
+/* Contact Me Section */
+.Contact-me {
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(191,255,191,1) 0%, rgba(255,255,255,1) 100%);
+}
+.Contact-me h2 {
+    margin-bottom: 3rem;
+}
+.Contact-me form {
+    padding: 2rem;
+    border: 0.1rem solid var(--dark-green);
+    border-radius: 1rem;
+    background-color: var(--white);
+    width: 80%;
+    margin: 0 auto;
+}
+.Contact-me form div {
+    margin-bottom: 1rem;
+}
+.Contact-me form div label {
+    display: inline-block;
+    width: 20%;
+}
+.Contact-me form div input {
+    text-align: center;
+    width: 80%;
+}
+.Contact-me form .Contact-me-message input {
+    height: 200px;
+}
