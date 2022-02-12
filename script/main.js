@@ -86,16 +86,21 @@ for (skill of skills.techSkills) {
 
 //Contact Me Section
 const handleSubmit = () => {
+    const format = /^[A-Za-z]+$/;
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
+    console.log((format.test(name)));
     if ((name === "") || (email === "") || (message === "")) {
         alert('Debe introducir todos los datos requeridos')
+    } else if (!(format.test(name))) {
+        alert("Su nombre no debe contener caracteres especiales")
     }
     else if (!email.includes('@')) {
         alert('Debe escribir un correo válido')
     }
     else {
+        alert('Su solicitud ha sido enviada')
         console.log(`
 Nombre: ${name}
 Correo: ${email}

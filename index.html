@@ -161,15 +161,15 @@
             <form>
                 <div class="Contact-me-name">
                     <label for="name">Nombre</label>
-                    <input type="text" id="name" placeholder="Escriba su nombre">
+                    <input type="text" id="name" placeholder="Escriba su nombre" required>
                 </div>
                 <div class="Contact-me-email">
                     <label for="email">Correo electronico</label>
-                    <input type="email" id="email" placeholder="Escriba su correo">
+                    <input type="email" id="email" placeholder="Escriba su correo" required>
                 </div>
                 <div class="Contact-me-message">
                     <label for="message">Mensaje</label>
-                    <input type="text" id="message" placeholder="Escriba el mensaje a dejar">
+                    <textarea type="text" id="message" placeholder="Escriba el mensaje a dejar" required></textarea>
                 </div>
                 <button type="button" onclick="handleSubmit()">Enviar</button>
             </form>
